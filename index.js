@@ -10,6 +10,7 @@ function johnLennonFacts(info){
   let i = 0;
   while(i < info.length){
     info[i] = info [i] + "!!!"
+    i++
   }
   return info
 }
