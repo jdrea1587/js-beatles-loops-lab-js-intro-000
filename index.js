@@ -6,3 +6,10 @@ for(var i = 0; i < musicians.length; i++){
 }
 return array;
 }
+function johnLennonFacts(info){
+  let i = 0;
+  while(i < info.length){
+    info[i] = info [i] + "!!!"
+  }
+  return info
+}
